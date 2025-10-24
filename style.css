@@ -34,9 +34,9 @@ main section.top-view {
   justify-content: center;
 }
 main section.top-view .card {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,13 +47,16 @@ main section.top-view .card {
   background-size: cover;
 }
 main section.top-view .card .top {
-  padding: 2.5rem 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
 }
 main section.top-view .card .top .text {
   font-family: design;
 }
 main section.top-view .card .top .text h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bolder;
   color: #121111;
 }
@@ -216,7 +219,7 @@ main section.bottom .card .right img {
     padding: 1rem 0;
   }
   main section.top-view .card .top .text h1 {
-    font-size: 3.7rem;
+    font-size: 1.9rem;
   }
   main section.top-view .card .bottom {
     display: flex;
@@ -239,7 +242,7 @@ main section.bottom .card .right img {
   }
   main section.top-view .card .bottom .left h2 {
     color: #fafafa;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   main section.top-view .card .bottom .right {
     background-color: rgba(242, 242, 242, 0.1294117647);
@@ -250,7 +253,7 @@ main section.bottom .card .right img {
   }
   main section.top-view .card .bottom .right h4 {
     color: #fffbfb;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   main section.center .card {
     padding: 1rem;
